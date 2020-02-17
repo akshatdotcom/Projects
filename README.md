@@ -1,2 +1,2 @@
-# MiscProjects
-My miscellaneous projects in various languages. 
+# Projects
+All of my code for various hackathons, challenges, and competitions. 
