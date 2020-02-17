@@ -1,2 +1,2 @@
 # MiscProjects
-All of my previous projects and programming files for various hackathons, challenges, and competitions. 
+All of my code for various hackathons, challenges, and competitions. 
