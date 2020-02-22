@@ -1,21 +1,24 @@
 /*
-PROG: ride
 ID: aksshah1
-TASK: test
 LANG: JAVA
+PROG: ride
  */
 
 import java.io.*;
 
 class ride {
 
-    public static void main(String[] args) {
-        BufferedReader f = new BufferedReader(new FileReader("file.in"));
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("file.out")));
+    public static void main(String[] args) throws IOException {
+        BufferedReader f = new BufferedReader(new FileReader("ride.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("ride.out")));
+//        StringTokenizer st = new StringTokenizer(f.readLine());
+
         String alpha = "abcdefghijklmnopqrstuvwxyz";
 
-        String comet = sc.next().toLowerCase().trim();
-        String star = sc.next().toLowerCase().trim();
+        String comet = f.readLine().toLowerCase().trim();
+
+//        st = new StringTokenizer(f.readLine());
+        String star = f.readLine().toLowerCase().trim();
 
         long sum1 = 1;
         long sum2 = 1;
@@ -29,9 +32,11 @@ class ride {
         }
 
         if(sum1 % 47 == sum2 % 47) {
-            System.out.println("GO");
+            out.println("GO");
         } else {
-            System.out.println("STAY");
+            out.println("STAY");
         }
+
+        out.close();
     }
 }
