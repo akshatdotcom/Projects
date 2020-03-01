@@ -1,34 +1,27 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 // INCOMPLETE
 
 public class Prob339A {
-    public static final Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader f = new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter out = new PrintWriter(System.out);
 
-    public static void main(String[] args) {
-        String working = sc.next().replace("'+'", " ");
-        String arr[] = working.split(" ");
+        String line = f.readLine();
+        line = line.replace("+", " ");
+        String[] arr = line.split(" ");
+        Arrays.sort(arr);
+        String finalAns = printArray(arr);
+        out.println(finalAns);
 
-        int list[] = new int[arr.length];
+    }
 
-        for(int j = 0; j < arr.length; j++) {
-            System.out.println(arr[j]);
+    public static String printArray(String[] strArr) {
+        String answer = "";
+        for(String str:strArr) {
+            answer += str + "+";
         }
-
-//        for(int j = 0; j < arr.length; j++) {
-//            list[j] = Integer.parseInt(arr[j]);
-//        }
-
-        Arrays.sort(list);
-        String ans = "";
-        for(int i = 0; i < list.length; i++) {
-            ans += list[i] + "+";
-        }
-
-        ans = ans.substring(0, ans.length() - 1);
-        System.out.println(ans);
+        return answer.substring(0, answer.length()-1);
     }
 }
