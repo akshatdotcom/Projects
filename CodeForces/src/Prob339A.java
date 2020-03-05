@@ -1,7 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-// INCOMPLETE
+// ACCEPTED
+// major problem faced was because out.close() was missing lol
 
 public class Prob339A {
     public static void main(String[] args) throws IOException {
@@ -14,7 +15,7 @@ public class Prob339A {
         Arrays.sort(arr);
         String finalAns = printArray(arr);
         out.println(finalAns);
-
+        out.close();
     }
 
     public static String printArray(String[] strArr) {
