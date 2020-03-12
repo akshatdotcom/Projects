@@ -6,6 +6,10 @@ import java.util.*;
 
 public class Prob339A {
     public static void main(String[] args) throws IOException {
+        StringBuilder sba = new StringBuilder("a");
+        String a = sba.toString();
+        String b = "a";
+        System.out.println(a == b);
         BufferedReader f = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(System.out);
 

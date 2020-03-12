@@ -4,3 +4,6 @@
 [submodule "Flutter/FireWatchApp"]
 	path = Flutter/FireWatchApp
 	url = https://github.com/reese-hoffart/firewatch-CodeDay2020
+[submodule "Websites/ahscyber.github.io"]
+	path = Websites/ahscyber.github.io
+	url = https://github.com/ahscyber/ahscyber.github.io
