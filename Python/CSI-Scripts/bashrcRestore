@@ -151,7 +151,7 @@ alias kap='killall python; fg; cl; cl'
 
 alias sc='screen'
 
-alias cpbash='cd; source .profile; cp .bashrc Projects-Misc/Projects/Python/CSI-Scripts/bashrcRestore; cp -r bin Projects-Misc/Projects/Python/CSI-Scripts/Bash; cp .profile Projects-Misc/Projects/Python/CSI-Scripts/profileRestore'
+alias cpbash='cd; source .profile; cp .bashrc Projects-Misc/Projects/Python/CSI-Scripts/bashrcRestore; cp -r bin Projects-Misc/Projects/Python/CSI-Scripts/Bash; cp .profile Projects-Misc/Projects/Python/CSI-Scripts/profileRestore; cp .screenrc Projects-Misc/Projects/Python/CSI-Scripts/screenrcRestore'
 mesg n
 
 # allows usage of mt [loopNum] script in $HOME/bin/
