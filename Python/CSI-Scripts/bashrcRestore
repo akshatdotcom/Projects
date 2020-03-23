@@ -123,11 +123,9 @@ export VISUAL='emacs'
 
 # Protect users from running multiple instances of emacs inadvertantly
 alias emacs='warnIfAlreadyRunning.sh emacs'
-
-
 alias emcas='emacs'
-alias qwe='emacs'
 alias emasc='emacs'
+alias qwe='emacs'
 alias abcd='emacs'
 
 alias emi='emacs instructions.txt main.swift'
