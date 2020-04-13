@@ -145,6 +145,8 @@ alias fulfill='python ~/Projects-Misc/Projects/Python/CSI-Scripts/fulfillHLPA.py
 alias pacp='cd ~/Merlin; python add-commit-push.py'
 alias gacp='cd ~/Projects-Misc/Projects/Python/CSI-Scripts; python gitAddCommitPush.py'
 
+alias gts='git status'
+
 alias kap='killall python; fg; cl; cl'
 
 alias sc='screen'
