@@ -143,7 +143,7 @@ alias list='python ~/Projects-Misc/Projects/Python/CSI-Scripts/listHLPA.py'
 alias fulfill='python ~/Projects-Misc/Projects/Python/CSI-Scripts/fulfillHLPA.py'
 
 alias pacp='cd ~/Merlin; python add-commit-push.py'
-alias gacp='cd ~/Projects-Misc/Projects/Python/CSI-Scripts; python gitAddCommitPush.py'
+alias gacp='python ~/Projects-Misc/Projects/Python/CSI-Scripts/gitAddCommitPush.py'
 
 alias gts='git status'
 
