@@ -213,7 +213,7 @@ public class Controller {
     }
 
     @FXML
-    public void handlExit() {
+    public void handleExit() {
         Platform.exit();
     }
 
