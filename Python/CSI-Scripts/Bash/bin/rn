@@ -1,0 +1,10 @@
+#!/bin/bash
+run
+COUNTER=0
+if [ "$1" != "" ]; then
+    while [ $COUNTER -lt $1 ]; do
+    	run
+	sleep 5
+	let COUNTER=COUNTER+1
+    done
+fi
