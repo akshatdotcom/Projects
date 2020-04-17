@@ -133,17 +133,17 @@ alias emi='emacs instructions.txt main.swift'
 alias mp='merlin prepare'
 alias mma='merlin mission accept'
 alias ml='merlin list'
-alias runMT='cp ~/Projects-Misc/Projects/Python/CSI-Scripts/TestForever.py TestForever.py; python TestForever.py'
+alias runMT='cp ~/PersonalProjects/Python/CSI-Scripts/TestForever.py TestForever.py; python TestForever.py'
 
 alias cl='clear'
 
 alias hlpa='helpme assistant'
-alias helpList='python ~/Projects-Misc/Projects/Python/CSI-Scripts/helpHLPA.py'
-alias list='python ~/Projects-Misc/Projects/Python/CSI-Scripts/listHLPA.py'
-alias fulfill='python ~/Projects-Misc/Projects/Python/CSI-Scripts/fulfillHLPA.py'
+alias helpList='python ~/PersonalProjects/Python/CSI-Scripts/helpHLPA.py'
+alias list='python ~/PersonalProjects/Python/CSI-Scripts/listHLPA.py'
+alias fulfill='python ~/PersonalProjects/Python/CSI-Scripts/fulfillHLPA.py'
 
 alias pacp='cd ~/Merlin; python add-commit-push.py'
-alias gacp='python ~/Projects-Misc/Projects/Python/CSI-Scripts/gitAddCommitPush.py'
+alias gacp='python ~/PersonalProjects/Python/CSI-Scripts/gitAddCommitPush.py'
 
 alias gts='git status'
 
@@ -151,7 +151,7 @@ alias kap='killall python; fg; cl; cl'
 
 alias sc='screen'
 
-alias cpbash='cd; source .profile; cp .bashrc Projects-Misc/Projects/Python/CSI-Scripts/bashrcRestore; cp -r bin Projects-Misc/Projects/Python/CSI-Scripts/Bash; cp .profile Projects-Misc/Projects/Python/CSI-Scripts/profileRestore; cp .screenrc Projects-Misc/Projects/Python/CSI-Scripts/screenrcRestore'
+alias cpbash='cd; source .profile; cp .bashrc PersonalProjects/Python/CSI-Scripts/bashrcRestore; cp -r bin PersonalProjects/Python/CSI-Scripts/Bash; cp .profile PersonalProjects/Python/CSI-Scripts/profileRestore; cp .screenrc PersonalProjects/Python/CSI-Scripts/screenrcRestore'
 mesg n
 
 # allows usage of mt [loopNum] script in $HOME/bin/
