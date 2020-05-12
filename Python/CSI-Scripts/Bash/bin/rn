@@ -1,8 +1,7 @@
 #!/bin/bash
-run
 while true
 do
-    run
-    echo sleeping
-    sleep 2
+	run
+	sleep 5
+	killall run
 done
