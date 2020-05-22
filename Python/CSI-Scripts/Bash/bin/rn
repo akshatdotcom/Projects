@@ -1,7 +1,0 @@
-#!/bin/bash
-while true
-do
-	run
-	sleep 5
-	killall run
-done

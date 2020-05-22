@@ -1,6 +1,0 @@
-**/.idea/**
-**/out/**
-*.class
-*.iml
-*.xml
-lib/*
