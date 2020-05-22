@@ -1,0 +1,7 @@
+**/.idea/**
+**/out/**
+*.class
+*.iml
+*.xml
+javafx-sdk-11.0.2/*
+jlfgr.jar

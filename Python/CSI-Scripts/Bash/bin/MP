@@ -1,0 +1,4 @@
+#!/bin/bash
+merlin mission accept
+merlin prepare
+find . -name "C*" -type d -exec bash -c 'cd "$0" && merlin prepare' {} \;
